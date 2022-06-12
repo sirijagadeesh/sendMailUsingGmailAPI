@@ -14,7 +14,6 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	log.Printf("%#v\n", config.GmailAPI())
 	sender, err := email.GmailSender()
 	if err != nil {
 		log.Fatalln()
