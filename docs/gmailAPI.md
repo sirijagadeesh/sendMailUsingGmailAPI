@@ -22,6 +22,6 @@
 
         ![OauthPlayground](./OAuth2Playground.jpg)
     * Authorize APIs and give access to it.
-    * It will redirected to oauthPlayground. if we click on `Exchange authorization code for tokens`. we'll get Refresh Code.
+    * It will redirected to oauthPlayground. if we click on `Exchange authorization code for tokens`. we'll get RefreshToken along with access Token.
 
 6. we can ClientId,ClientSecret,RedirectURI,RefreshToken to send mails.
